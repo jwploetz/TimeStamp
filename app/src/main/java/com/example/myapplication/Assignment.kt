@@ -5,6 +5,7 @@ class Assignment(Deadline:Long, AssingmentName: String) {
     var Name = AssingmentName;
     fun ChangeAssignmentDate(x: Long){
             AssignmentDate = x;
+
     }
     fun ChangeAssignmentName(x: String){
             Name = x
